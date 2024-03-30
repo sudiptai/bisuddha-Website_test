@@ -7,13 +7,25 @@ import ImliAchaar from '../../AllProducts-Images/Imli-Achaar-1.jpg'
 import SweetAmlaCandy from '../../AllProducts-Images/Sweet-Amla-1.jpg'
 import GheeAmlaCandy from '../../AllProducts-Images/Ghee-Amla-1.jpg'
 import GandharajAmlaCandy from '../../AllProducts-Images/Gandharaj-Amla-1.jpg'
-
+import Smartpremix from '../../AllProducts-Images/Samartpremix1.jpeg'
 const ShopByCategories = () => {
 
   const Categories = [
     {
-      name: "Candy",
-      Products: [
+      name : "Smartpremix",
+      Products : [
+          {
+            name : "Smartpremix",
+            img : Smartpremix,
+            quantity : "800",
+            price : "295",
+            link : "/our-products/Smartpremix"
+          },
+        ],
+      }, 
+      {
+      name : "Candy",
+      Products : [
         {
           name: "Sweet Amla Candy",
           img: SweetAmlaCandy,
@@ -75,6 +87,7 @@ const ShopByCategories = () => {
         },
       ]
     },
+    
   ]
 
 

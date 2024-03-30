@@ -10,7 +10,7 @@ import pic5 from '../AllProducts-Images/Samartpremix5.jpeg'
 import vegLogo from '../assets/icons/veg-icon.svg';
 import Reputation from '../components/reputations/reputation'
 
-const GandharajAmlaCandy = () => {
+const Smartpremix = () => {
 
   const images = [pic1, pic2, pic3, pic4, pic5];
 
@@ -588,4 +588,4 @@ const GandharajAmlaCandy = () => {
   )
 }
 
-export default GandharajAmlaCandy
+export default Smartpremix 

@@ -23,6 +23,8 @@ import Imli from './components/OurIngredients/Ingredient.Imli';
 import Mango from './components/OurIngredients/Ingredient.Mango';
 import Guava from './components/OurIngredients/Ingredient.Guava';
 import CustardApple from './components/OurIngredients/Ingredient.CustardApple';
+//import Smartpremix from './components/OurIngredients/Ingredient.Smartpremix';
+
 
 /*All Products*/
 
@@ -33,6 +35,8 @@ import ImliAchaar from './AllProducts/Imli.ImliAchaar';
 import SchezwanImliSauce from './AllProducts/Imli.SchezwanImliSauce';
 import SweetChiliImliSauce from './AllProducts/Imli.SweetChiliImliSauce';
 import SweetImliSauce from './AllProducts/Imli.SweetImliSauce';
+import Smartpremix from './AllProducts/Smartpremix';
+
 
 function App() {
   return (
@@ -56,7 +60,7 @@ function App() {
             <Route path="/our-products/schezwan-imli-sauce" element={<SchezwanImliSauce />} />
             <Route path="/our-products/sweet-chili-imli-sauce" element={<SweetChiliImliSauce />} />
             <Route path="/our-products/sweet-imli-sauce" element={<SweetImliSauce />} />
-
+            <Route path="/our-products/Smartpremix" element={<Smartpremix/>}/>
             <Route path="/our-ingredients" element={<OurIngredientsPage />} />
 
             <Route path="/our-ingredients/amla" element={<Amla />} />

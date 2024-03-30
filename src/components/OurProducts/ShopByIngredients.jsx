@@ -7,10 +7,22 @@ import ImliAchaar from '../../AllProducts-Images/Imli-Achaar-1.jpg'
 import SweetAmlaCandy from '../../AllProducts-Images/Sweet-Amla-1.jpg'
 import GheeAmlaCandy from '../../AllProducts-Images/Ghee-Amla-1.jpg'
 import GandharajAmlaCandy from '../../AllProducts-Images/Gandharaj-Amla-1.jpg'
-
+import Samartpremix from '../../AllProducts-Images/Samartpremix1.jpeg'
 const ShopByIngredients = () => {
   
   const Ingredients = [
+    {
+      name : "Chanadal",
+      Products : [
+        {
+          name : "Smartpremix",
+          img : Samartpremix,
+          quantity : "800",
+          price : "295",
+          link : "/our-products/Smartpremix",
+        }
+      ],
+    },
     {
       name : "Imli",
       Products : [
