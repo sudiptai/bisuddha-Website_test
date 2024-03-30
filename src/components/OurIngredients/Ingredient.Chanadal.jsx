@@ -57,4 +57,4 @@ const Chanadal = () => {
   );
 }
 
-export default ChanaDal;
+export default Chanadal;

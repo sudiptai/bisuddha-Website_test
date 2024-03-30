@@ -18,7 +18,7 @@ const homeProductShow = () => {
       img: Samartpremix,
       quantity: "800",
       price: "295",
-      link: "/our-products/Smartpremix1",
+      link: "/our-products/Smartpremix",
     },
     {
       name: "Sweet Imli Sauce",

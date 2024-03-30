@@ -5,12 +5,18 @@ import amlaImg from '../../assets/images/ingredients/amla.jpg'
 import mangoImg from '../../assets/images/ingredients/mango.jpg';
 import guavaImg from '../../assets/images/ingredients/guava.jpg'
 import custardAppleImg from '../../assets/images/ingredients/custard-apple.jpg';
+import DalImg from '../../assets/images/ingredients/Chanadal.jpeg';
  
 
 const OurIngredients = () => {
 
   //Ingredient = Imli, Amla, Mango, Guava, Custard Apple
   const Ingredient = [
+    {
+      name: 'Chanadal',
+      image: DalImg,
+      link: '/our-ingredients/Chanadal'
+    },
     {
       name: 'Imli',
       image: imliImg,
