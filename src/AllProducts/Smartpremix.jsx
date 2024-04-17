@@ -40,7 +40,7 @@ const Smartpremix = () => {
     alsoAvailableIn: [
       {
         quantity: "200 gm,900 gm",
-        price: "80, 288",
+        price: "80,288",
       }
     ],
     alsoBuyFromHere: [
@@ -92,7 +92,7 @@ const Smartpremix = () => {
       },
       {
         head: "Quantity",
-        details: "200 gm , 400 gm"
+        details: "200 gm ,400 gm"
       },
       {
         head: "Base Flavour",
