@@ -62,7 +62,7 @@ const Smartpremix = () => {
       },
       {
         head: "Base Ingredient",
-        details: "Millets,Rice Flour,Fenugreek Power"
+        details: "Millets ,Rice Flour,Fenugreek Power"
       },
       {
         head: "",
@@ -124,7 +124,7 @@ const Smartpremix = () => {
       },
       {
         head: "Added Preservatives",
-        details: "INS 211"
+        details: "No"
       },
       {
         head: "Artificial Flavour",
@@ -137,15 +137,15 @@ const Smartpremix = () => {
     ],
     ingredients: [
       {
-        value: "Amla"
+        value: "Millets"
       },
       {
-        value: "Sugar"
+        value: "Rice Flour"
       },
       {
-        value: "Black Salt"
+        value: "Fenugreek powder"
       },
-      {
+      /* {
         value: "Spices"
       },
       {
@@ -156,7 +156,7 @@ const Smartpremix = () => {
       },
       {
         value: "Lemon Juice"
-      }
+      } */
     ],
     nutritionalValue: [
       {
