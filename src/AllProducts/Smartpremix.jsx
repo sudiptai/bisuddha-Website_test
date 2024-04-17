@@ -27,20 +27,20 @@ const Smartpremix = () => {
   const product = {
     name: "Smart Mix Multipurpose premix",
     punchLine: "35 % Oil Free and Less Acidic .",
-    quantity: "50",
-    price: "96",
+    quantity: "400",
+    price: "144",
     buyFromHere: [
       {
-        marketPlace: "amazon",
-        link: "try",
+        marketPlace: "Flipkart",
+        link: "https://www.flipkart.com/bisuddha-smart-mix-400-g/p/itmb5abfac8080b7?pid=RYMGZC79PCKT7BHF",
         backgroundColor: "#ff9900",
         color: "#000000"
       },
     ],
     alsoAvailableIn: [
       {
-        quantity: "400 gm",
-        price: "176",
+        quantity: "200 gm,900 gm",
+        price: "80, 288",
       }
     ],
     alsoBuyFromHere: [
@@ -54,27 +54,27 @@ const Smartpremix = () => {
     highlights: [
       {
         head: "Type",
-        details: "Candy"
+        details: "Premix"
       },
       {
         head: "Quantity",
-        details: "50 gm"
+        details: "200 gm"
       },
       {
         head: "Base Ingredient",
-        details: "Amla"
+        details: "Millets,Rice Flour,Fenugreek Power"
       },
       {
         head: "",
-        details: "No Chemicals, No Artificial Flavour."
+        details: "No Transfats, No Preservative."
       },
       {
         head: "",
-        details: "No Added Color."
+        details: "No Artificial Color, Guuten Free,100% Natural Ingradiants,Less Acidic"
       },
       {
         head: "",
-        details: "No Onion, No Garlic."
+        details: "High Fiber,Vegan Friendly,Easy Digest."
       },
     ],
     specifications: [
@@ -84,19 +84,19 @@ const Smartpremix = () => {
       },
       {
         head: "Fssai Lic. No.",
-        details: "12823013000628"
+        details: "12824013000076"
       },
       {
         head: "Product Name",
-        details: "Gandharaj Amla Candy"
+        details: "Smart Mix"
       },
       {
         head: "Quantity",
-        details: "50 gm , 150 gm"
+        details: "200 gm , 400 gm"
       },
       {
         head: "Base Flavour",
-        details: "Amla"
+        details: "Millets(Channa,Ahor,Urad)"
       },
       {
         head: "Organic",
@@ -104,15 +104,15 @@ const Smartpremix = () => {
       },
       {
         head: "Container Type",
-        details: "Plastic Bottle"
+        details: "Sandy brown Packet (Paper packet)"
       },
       {
         head: "Best Before",
-        details: "12 Months if stored in a cool and dry place"
+        details: "12 Months from Mfg Date"
       },
       {
-        head: "Recommended Storage",
-        details: "Product should be refrigerated for extended usage and longer self life."
+        head: "Storage",
+        details: "Store in a Cool Dry Place"
       },
       {
         head: "Ingredient Type",
@@ -176,38 +176,33 @@ const Smartpremix = () => {
             name: "Fat (g)",
           },
           {
-            name: "Saturated Fat (g)",
+            name: "Added Sugar (g)",
           },
           {
-            name: "Trams Fatty Acid (g)",
+            name: "Iron Content (g)",
           },
           {
-            name: "Cholesterol (mg)",
+            name: "Calcium Content (mg)",
           },
           {
-            name: "Vitamin C (mg)",
+            name: "Sodium Content (gm)",
           },
           {
-            name: "Calcium (mg)",
+            name: "Potassium Content (mg)",
           },
           {
-            name: "Sodium (mg)",
+            name: "Magnesium Content (mg)",
           },
           {
-            name: "Iron (mg)",
+            name: "Vitamin B12(mg)",
           },
           {
             name: "Vitamin A (IU)"
           },
-          {
-            name: "Moisture (g)"
-          },
-          {
-            name: "Ash (g)"
-          }
+          
         ]
       },
-      {
+      /* {
         head: "Per 25 gm",
         value: [
           {
@@ -253,52 +248,52 @@ const Smartpremix = () => {
             value: "0.10"
           }
         ]
-      },
+      }, */
       {
         head: "Per 100 gm",
         value: [
           {
-            value: "336.32"
+            value: "375.71"
           },
           {
-            value: "84.00"
+            value: "70.24"
           },
           {
-            value: "0.1"
+            value: "12.82"
           },
           {
-            value: "0.00"
+            value: "4.83"
           },
           {
-            value: "0.00"
+            value: "0.72"
           },
           {
-            value: "0.00"
+            value: "4.58"
           },
           {
-            value: "0.00"
+            value: "51.18"
           },
           {
-            value: "205.1"
+            value: "0.42"
           },
           {
-            value: "94.3"
+            value: "0.67"
           },
           {
-            value: "48.9"
+            value: "18.65"
           },
           {
-            value: "3.3"
+            value: "212"
           },
           {
-            value: "0"
+            value: "55"
           },
-          {
+          /* {
             value: "12.5"
           },
           {
             value: "0.4"
-          },
+          }, */
         ]
       },
       // {
