@@ -12,5 +12,6 @@
         "Qand",
         "Schezwan"
     ],
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "python.pythonPath": "C:\\ProgramData\\chocolatey\\bin\\python3.12.exe"
 }
